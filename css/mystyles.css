@@ -18,3 +18,7 @@
 .card-hover:hover {
     background-color: #f0f0f0; /* Couleur de fond au survol */
 }
+
+.card-hover:hover .p-3 {
+    background-color: #4a69c0; /* Couleur de fond au survol */
+}
