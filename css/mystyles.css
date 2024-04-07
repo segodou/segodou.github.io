@@ -1,0 +1,15 @@
+/* Ajoutez ce style pour définir la couleur de survol */
+.nav-link.hovered {
+    color: red;
+  }
+
+.text-container {
+    background-color: #f0f0f0; /* Couleur de fond */
+    padding: 20px; /* Marge intérieure */
+    border-radius: 10px; /* Bord arrondi */
+    transition: background-color 0.3s ease; /* Animation de transition pour la couleur de fond */
+}
+
+.text-container:hover {
+    background-color: #5da15c; /* Changement de couleur de fond au survol */
+}
