@@ -16,20 +16,22 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/mystyles.css" rel="stylesheet" />
     </head>
-    <body class="d-flex flex-column h-100 bg-light">
+    <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-gradient-primary-to-secondary py-3">
                 <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary"><i class="bi bi-gem"></i> Portfolio</span></a>
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-white"><i class="bi bi-gem"></i> Portfolio</span></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">CV</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Projets</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="resume.html">CV</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="projects.html">Projets</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -42,6 +44,122 @@
                     </div>
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-11 col-xl-9 col-xxl-8">
+                            <!-- Project Card 1-->
+                            <a href="https://github.com/segodou/Projet_deforestation_Streamlit_app" style="text-decoration: none;">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-3 text-white" style="background-color:#425bb5;">
+                                                <h2 class="fw-bolder">Projet deforestation Streamlit-app</h2>
+                                                <p>Projet de détection de la déforestation sur des images satellite
+                                                     (du hackathon Kaggle WIDS 2019). L'idée est de pouvoir mettre en 
+                                                     place un modèle qui fonctionne, sauvegarder les poids et ensuite 
+                                                     déployer le modèle sur streamlit.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Project Card 1-->
+                            <a href="https://github.com/segodou/Projet_Dataviz_with_Power_Bi" style="text-decoration: none;">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-3 text-white" style="background-color:#7d57b2;">
+                                                <h2 class="fw-bolder">Projet Dataviz avec Power-Bi</h2>
+                                                <p>Ce projet de data visualisation consiste à créer un tableau de bord 
+                                                    soit depuis Poower Bi soit depuis Tableau. ici, nous avons utilisé 
+                                                    Power Bi. Les données proviennent de Kaggle (ensemble de données du 
+                                                    centre d'appels télécom). Dans ce projet nous avons créé un tableau 
+                                                    de bord qui peut être utilisé comme outil de suivi global ou individuel 
+                                                    afin d'analyser la performance de l'entreprise ou la performance de 
+                                                    chaque agent.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Project Card 1-->
+                            <a href="https://github.com/segodou/Projet_PySpark_2024" style="text-decoration: none;">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-3 text-white" style="background-color:#425bb5;">
+                                                <h2 class="fw-bolder">Projet PySpark</h2>
+                                                <p>Objectif : charger et traiter les données sur le prix des carburants avec Spark :
+                                                    Collecter des données,
+                                                    Préparer les données,
+                                                    Visualiser les variations des prix des carburants,
+                                                    Modéliser l’évolution des prix.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Project Card 1-->
+                            <a href="https://github.com/segodou/Hackathon_Airbus_2024" style="text-decoration: none;">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-3 text-white" style="background-color:#7d57b2;">
+                                                <h2 class="fw-bolder">Hackathon Airbus 2024</h2>
+                                                <p>Compétition NLP de 7 jours pour développer un modèle de résumé de texte. 
+                                                    La compétition a été réalisée en groupes de 5 étudiants. 
+                                                    Pour développer ce modèle, nous avons utilisé les transformateurs 
+                                                    T5-base de huggingface. Les données utilisées sont fournies par Airbus. 
+                                                    Le modèle a été entraîné sur Google Colab avec GPU.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Project Card 1-->
+                            <a href="https://github.com/segodou/Text_classification_multiclass" style="text-decoration: none;">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-3 text-white" style="background-color:#425bb5;">
+                                                <h2 class="fw-bolder">Text Classification Multiclass</h2>
+                                                <p>L'objectif principal de ce projet est de classer les produits de commerce 
+                                                    électronique en quatre groupes distincts : électronique, articles ménagers, 
+                                                    livres et vêtements et accessoires, en fonction de leurs descriptions 
+                                                    disponibles sur diverses plateformes de commerce électronique à partir de 
+                                                    modèle de Machine learning. Pour ce faire, nous avons réaliser une analyse
+                                                     exploratoire de la base des données, appliquer de diverses techniques de 
+                                                     normalisation de texte, utiliser la vectorisation TF-IDF et  Word2Vec 
+                                                     pour pouvoir utiliser le modèle SVM. Et pour comparer les résultats, 
+                                                     nous utilisons aussi le modèle Google BERT (Bidirectionnel Encoder Representations 
+                                                     from Transformers) via la bibliothèque Hugging Face Transformers.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <!-- Project Card 1-->
+                            <a href="https://github.com/segodou/JUN-AI_Grammatical_Error_corrector_with_T5_transformers" style="text-decoration: none;">
+                                <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">
+                                    <div class="card-body p-0">
+                                        <div class="d-flex align-items-center">
+                                            <div class="p-3 text-white" style="background-color:#7d57b2;">
+                                                <h2 class="fw-bolder">JUN-AI Grammatical Error Correction</h2>
+                                                <p>Jun AI (Grammatical Error Correction) est un projet qui peut se développer 
+                                                    sur le long terme. L’idée est de développer une application de reformulation
+                                                     de texte, de correction grammaticale et de détection de plagiat. 
+                                                     Compte tenu du temps dont nous disposons, nous n’avons réussi à faire 
+                                                     que l’aspect correction grammaticale. Suite à la mise en œuvre de 
+                                                     différents modèles (RNN, LSTM, T5 Model), nous avons obtenu de meilleurs 
+                                                     résultats qu'avec le modèle T5 basé sur un transformateur (Happy Transformer).
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
                             <!-- Project Card 1-->
                             <a href="https://github.com/segodou/Projet_machine_learning_2023" style="text-decoration: none;">
                                 <div class="card overflow-hidden shadow rounded-4 border-0 mb-3">

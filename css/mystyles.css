@@ -13,3 +13,8 @@
 .text-container:hover {
     background-color: #5da15c; /* Changement de couleur de fond au survol */
 }
+
+
+.card-hover:hover {
+    background-color: #f0f0f0; /* Couleur de fond au survol */
+}
